@@ -15,3 +15,12 @@ Dependencies:
 * The theme requires conky-lua. Install it first. 
 * Also, download and install Santana font. https://www.dafont.com/santana.font
 
+Instruction:
+* open terminal
+* type: cd .conky
+* type: git clone https://github.com/sysadmin-info/TP-Troll-rings-4-cores-LUA.git
+* type: cp conky-delay.sh ~/
+* type: cd ..
+* type: chmod +x conky-delay.sh
+* run conky delay script by typing ./conky.delay.sh
+* add conky-delay.sh script to autostart to let it start after the login.
