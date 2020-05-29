@@ -26,10 +26,10 @@ Instruction:
 * add conky-delay.sh script to autostart to let it start after the login.
 
 In case of errors:
-double_buffer = true, set to false and check.
+    double_buffer = true, set to false and check.
 change
-own_window_type = 'normal',
+    own_window_type = 'normal',
 to
-own_window_type = 'override',
+    own_window_type = 'override',
 or
-own_window_type = 'desktop',
+    own_window_type = 'desktop',
