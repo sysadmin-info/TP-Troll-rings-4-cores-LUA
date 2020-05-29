@@ -24,3 +24,12 @@ Instruction:
 * type: chmod +x conky-delay.sh
 * run conky delay script by typing ./conky.delay.sh
 * add conky-delay.sh script to autostart to let it start after the login.
+
+In case of errors:
+double_buffer = true, set to false and check.
+change
+own_window_type = 'normal',
+to
+own_window_type = 'override',
+or
+own_window_type = 'desktop',

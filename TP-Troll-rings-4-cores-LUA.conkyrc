@@ -40,58 +40,58 @@ conky.config = {
 
 	--Various settings
 
-	background = true, 														-- forked to background
-	update_interval = 3,													-- update interval	
-	cpu_avg_samples = 2,													-- The number of samples to average for CPU monitoring.
-	net_avg_samples = 2,													-- The number of samples to average for net data
-	double_buffer = true,													-- Use the Xdbe extension? (eliminates flicker)
-	no_buffers = true,														-- Subtract (file system) buffers from used memory
-	text_buffer_size = 2048,												-- size of buffer for display of content of large variables - default 256
-	imlib_cache_size = 0,           										-- disable image cache to get a new spotify cover per song
+	background = true, 								-- forked to background
+	update_interval = 3,								-- update interval	
+	cpu_avg_samples = 2,								-- The number of samples to average for CPU monitoring.
+	net_avg_samples = 2,								-- The number of samples to average for net data
+	double_buffer = true,								-- Use the Xdbe extension? (eliminates flicker)
+	no_buffers = true,								-- Subtract (file system) buffers from used memory
+	text_buffer_size = 2048,							-- size of buffer for display of content of large variables - default 256
+	imlib_cache_size = 0,           						-- disable image cache to get a new spotify cover per song
 
 	--Placement
 
-	alignment = 'top_left',													-- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
-                                  											-- middle_left,middle_middle,middle_right,none
-	gap_x = 20,																-- pixels between right or left border
-	gap_y = 79,																-- pixels between bottom or left border
-	minimum_height = 300,													-- minimum height of window
-	minimum_width = 600,													-- minimum height of window
-	maximum_width = 1024,													-- maximum height of window
+	alignment = 'top_left',								-- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
+                                  							-- middle_left,middle_middle,middle_right,none
+	gap_x = 20,									-- pixels between right or left border
+	gap_y = 79,									-- pixels between bottom or left border
+	minimum_height = 300,								-- minimum height of window
+	minimum_width = 600,								-- minimum width of window
+	maximum_width = 1024,								-- maximum width of window
 
 	--Graphical
 
-	border_inner_margin = 0, 												-- margin between border and text
-	border_outer_margin = 0, 												-- margin between border and edge of window
-	draw_borders = false,													-- draw borders around text
-	draw_graph_borders = false,				 								-- draw borders around graphs
-	draw_shades = false,													-- draw shades
-	draw_outline = false,													-- draw outline	
+	border_inner_margin = 0, 							-- margin between border and text
+	border_outer_margin = 0, 							-- margin between border and edge of window
+	draw_borders = false,								-- draw borders around text
+	draw_graph_borders = false,				 			-- draw borders around graphs
+	draw_shades = false,								-- draw shades
+	draw_outline = false,								-- draw outline	
 
 	--Textual
 
-	use_xft = true,															-- xft font - anti-aliased font
-	xftalpha = 0.8,															-- alpha of the xft font - between 0-1
-	override_utf8_locale = true,											-- force UTF8 requires xft
-	font = 'Santana:size=18',     											-- font for complete conky unless in code defined
-	uppercase = false,														-- uppercase or not
+	use_xft = true,									-- xft font - anti-aliased font
+	xftalpha = 0.8,									-- alpha of the xft font - between 0-1
+	override_utf8_locale = true,							-- force UTF8 requires xft
+	font = 'Santana:size=18',     							-- font for complete conky unless in code defined
+	uppercase = false,								-- uppercase or not
 
 	--Windows
 
-	own_window = true,														-- create your own window to draw
-	own_window_argb_value = 0,												-- real transparency - composite manager required 0-255
-	own_window_argb_visual = true,											-- use ARGB - composite manager required
-	own_window_class = 'Conky',												-- manually set the WM_CLASS name for use with xprop
-	own_window_colour = '000000',											-- set colour if own_window_transparent no
-	own_window_transparent = true,											-- if own_window_argb_visual is true sets background opacity 0%
-	own_window_title = 'system_conky',										-- set the name manually  - default conky "hostname"
-	own_window_type = 'override',											-- if own_window true options are: normal/override/dock/desktop/panel
-	own_window_hints = 'undecorated,sticky,skip_taskbar,skip_pager,below',	-- if own_window true - just hints - own_window_type sets it
+	own_window = true,								-- create your own window to draw
+	own_window_argb_value = 0,							-- real transparency - composite manager required 0-255
+	own_window_argb_visual = true,							-- use ARGB - composite manager required
+	own_window_class = 'Conky',							-- manually set the WM_CLASS name for use with xprop
+	own_window_colour = '000000',							-- set colour if own_window_transparent no
+	own_window_transparent = true,							-- if own_window_argb_visual is true sets background opacity 0%
+	own_window_title = 'system_conky',						-- set the name manually  - default conky "hostname"
+	own_window_type = 'normal',							-- if own_window true options are: normal/override/dock/desktop/panel
+	own_window_hints = 'undecorated,sticky,skip_taskbar,skip_pager,below',		-- if own_window true - just hints - own_window_type sets it
 
 
 	--Colours
 
-	default_color = 'FFFFFF',  												-- default color and border color
+	default_color = '#FFFFFF',  							-- default color and border color
 
 	-- Lua Load
 
